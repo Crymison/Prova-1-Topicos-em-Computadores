@@ -1,7 +1,6 @@
 {
   "name": "prova-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -15,5 +14,15 @@
   "dependencies": {
     "jest": "^27.3.1",
     "node": "^17.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crymison/Prova-1-Topicos-em-Computadores.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Crymison/Prova-1-Topicos-em-Computadores/issues"
+  },
+  "homepage": "https://github.com/Crymison/Prova-1-Topicos-em-Computadores#readme",
+  "description": ""
 }
