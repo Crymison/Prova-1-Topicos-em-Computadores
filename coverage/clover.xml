@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636287513437" clover="3.2.0">
-  <project timestamp="1636287513437" name="All files">
-    <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="10" coveredelements="9" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1636287607092" clover="3.2.0">
+  <project timestamp="1636287607092" name="All files">
+    <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="10" coveredelements="1" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="Main.js" path="C:\Users\Usuario\Desktop\Pasta\Faculdade\js\Prova 1\lib\Main.js">
-      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="8" count="6" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
+      <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
       <line num="15" count="0" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
     </file>
