@@ -8,7 +8,7 @@ describe('Prova', () =>{
         // fatura.valor = 1000;
         // fatura.data =  2; //mes
         
-        const fturas =
+        const faturas =
         [
             {codigo: 54654, valor: 2600, data: 2, id: 1},
             {codigo: 54655, valor: 1600, data: 5, id: 2},
