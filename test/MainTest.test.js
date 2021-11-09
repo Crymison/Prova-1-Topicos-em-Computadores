@@ -270,7 +270,7 @@ describe('Prova', () =>{
         var res = Filtrarfraturas(num, faturas);
 
         var comparador = [
-        {"codigo": 54657, "data": 1, "dataCliente": 11, "estado": "Sul", "id": 4, "nome": "Guilherme", "valor": 6600}, 
+        {"codigo": 54657, "data": 1, "dataCliente": 11, "estado": "Sul", "id": 4, "nome": "Guilherme", "valor": 1600}, 
         {"codigo": 54659, "data": 1, "dataCliente": 4, "estado": "Sul", "id": 6, "nome": "Lucas", "valor": 2260}];
         expect(res).toEqual(comparador);
     });
