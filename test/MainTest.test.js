@@ -71,7 +71,7 @@ describe('Prova', () =>{
 
     test('Se o valor da fatura estiver entre 2000 e 2500 e a data for menor ou igual a de um mês atrás', () => {
 
-        const faturas2 = [
+        var faturas2 = [
             {
             id: 1,
             codigo: 54654,
@@ -103,7 +103,7 @@ describe('Prova', () =>{
             id: 4,
             codigo: 54657,
             valor: 1600,
-            data: 2,
+            data: 1,
             nome: 'Guilherme', 
             dataCliente: 11, 
             estado: 'Santa Catarina'
@@ -112,7 +112,7 @@ describe('Prova', () =>{
             id: 5,
             codigo: 54658,
             valor: 2680,
-            data: 2,
+            data: 5,
             nome: 'Loriane', 
             dataCliente: 1, 
             estado: 'Sao Paulo'
@@ -121,20 +121,20 @@ describe('Prova', () =>{
             id: 6,
             codigo: 54659,
             valor: 2260,
-            data: 2,
+            data: 1,
             nome: 'Lucas', 
             dataCliente: 4, 
             estado: 'Parana'
             }
         ];
+        
         let num = 2;
-        const res = Filtrarfraturas(num,faturas2);
+        var res = Filtrarfraturas(num, faturas2);
 
-        const comparador2 = [
-            {"codigo": 54655, "data": 2, "dataCliente": 2, "estado": "Amazonas", "id": 2, "nome": "Jose", "valor": 3900},
-            {"codigo": 54656, "data": 2, "dataCliente": 6, "estado": "Pernambuco", "id": 3, "nome": "Abigail", "valor": 2500},
-            {"codigo": 54658, "data": 2, "dataCliente": 1, "estado": "Sao Paulo", "id": 5, "nome": "Loriane", "valor": 2680},
-            {"codigo": 54659, "data": 2, "dataCliente": 4, "estado": "Parana", "id": 6, "nome": "Lucas", "valor": 2260}];
+        var comparador2 = [
+        {"codigo": 54654, "data": 2, "dataCliente": 5, "estado": "Para", "id": 1, "nome": "Jorel", "valor": 500}, 
+        {"codigo": 54655, "data": 2, "dataCliente": 2, "estado": "Amazonas", "id": 2, "nome": "Jose", "valor": 3900}, 
+        {"codigo": 54658, "data": 5, "dataCliente": 1, "estado": "Sao Paulo", "id": 5, "nome": "Loriane", "valor": 2680}];
         expect(res).toEqual(comparador2);
     });
 });
