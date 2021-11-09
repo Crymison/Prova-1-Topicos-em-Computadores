@@ -1,35 +1,74 @@
-const Filtrarfraturas = require ('../lib/Main');
+const Filtrarfraturasmenor2000 = require ('../lib/Main');
 
 describe('Prova', () =>{
     test('Se o valor da fatura for menor que 2000', () => {
         
-        // var fatura = {};
-        // fatura.codigo = 6519641;
-        // fatura.valor = 1000;
-        // fatura.data =  2; //mes
-        
-        const faturas =
-        [
-            {codigo: 54654, valor: 2600, data: 2, id: 1},
-            {codigo: 54655, valor: 1600, data: 5, id: 2},
-            {codigo: 54656, valor: 1990, data: 6, id: 3},
-            {codigo: 54657, valor: 2000, data: 1, id: 4},
-            {codigo: 54658, valor: 1400, data: 10, id: 5},
-            {codigo: 54659, valor: 1800, data: 8, id: 6}
-        ]
+        const faturas = [
+            {
+            id: 1,
+            codigo: 54654,
+            valor: 500,
+            data: 2,
+            nome: 'Jorel',
+            dataCliente: 5,
+            estado: 'Para'
+            },
+            {
+            id: 2,
+            codigo: 54655,
+            valor: 3900,
+            data: 2,
+            nome: 'Jose',
+            dataCliente: 2,
+            estado: 'Amazonas'
+            },
+            {
+            id: 3,
+            codigo: 54656,
+            valor: 2500,
+            data: 2,
+            nome: 'Abigail',
+            dataCliente: 6, 
+            estado: 'Pernambuco'
+            },
+            {
+            id: 4,
+            codigo: 54657,
+            valor: 1600,
+            data: 2,
+            nome: 'Guilherme', 
+            dataCliente: 11, 
+            estado: 'Santa Catarina'
+            },
+            {
+            id: 5,
+            codigo: 54658,
+            valor: 2680,
+            data: 2,
+            nome: 'Loriane', 
+            dataCliente: 1, 
+            estado: 'Sao Paulo'
+            },
+            {
+            id: 6,
+            codigo: 54659,
+            valor: 2260,
+            data: 2,
+            nome: 'Lucas', 
+            dataCliente: 4, 
+            estado: 'Parana'
+            }
+        ];
 
-        // const clientes = 
-        // [
-        //     {nome: 'Jorel', data: 5, estado: 'Para', fatura: 1},
-        //     {nome: 'Jose', data: 2, estado: 'Amazonas', fatura: 2},
-        //     {nome: 'Abigail', data: 6, estado: 'Pernambuco', fatura: 3},
-        //     {nome: 'Guilherme', data: 11, estado: 'Santa Catarina', fatura: 4},
-        //     {nome: 'Loriane', data: 1, estado: 'Sao Paulo', fatura: 5},
-        //     {nome: 'Lucas', data: 4, estado: 'Parana', fatura: 6}
-        // ]
-
-        const res = Filtrarfraturas(faturas);
+        const res = Filtrarfraturasmenor2000(faturas);
         
-        expect(res).toBe(true);
+        const comparador = [
+        {"codigo": 54655, "data": 2, "dataCliente": 2, "estado": "Amazonas", "id": 2, "nome": "Jose", "valor": 3900},
+        {"codigo": 54656, "data": 2, "dataCliente": 6, "estado": "Pernambuco", "id": 3, "nome": "Abigail", "valor": 2500},
+        {"codigo": 54658, "data": 2, "dataCliente": 1, "estado": "Sao Paulo", "id": 5, "nome": "Loriane", "valor": 2680},
+        {"codigo": 54659, "data": 2, "dataCliente": 4, "estado": "Parana", "id": 6, "nome": "Lucas", "valor": 2260}];
+
+        expect(res).toEqual(comparador);
+
     });
 });
