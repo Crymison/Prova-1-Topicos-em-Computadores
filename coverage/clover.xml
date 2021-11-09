@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636476876797" clover="3.2.0">
-  <project timestamp="1636476876797" name="All files">
+<coverage generated="1636476916026" clover="3.2.0">
+  <project timestamp="1636476916026" name="All files">
     <metrics statements="28" coveredstatements="27" conditionals="6" coveredconditionals="5" methods="8" coveredmethods="8" elements="42" coveredelements="40" complexity="0" loc="28" ncloc="28" packages="1" files="1" classes="1"/>
     <file name="Main.js" path="C:\Users\Usuario\Desktop\Pasta\Faculdade\js\Prova 1\lib\Main.js">
       <metrics statements="28" coveredstatements="27" conditionals="6" coveredconditionals="5" methods="8" coveredmethods="8"/>

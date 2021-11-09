@@ -202,7 +202,7 @@ describe('Prova', () =>{
 
         var comparador2 = [
         {"codigo": 54654, "data": 2, "dataCliente": 5, "estado": "Para", "id": 1, "nome": "Jorel", "valor": 500}, 
-        {"codigo": 54657, "data": 1, "dataCliente": 10, "estado": "Santa Catarina", "id": 4, "nome": "Guilherme", "valor": 1600}, 
+        {"codigo": 54657, "data": 1, "dataCliente": 11, "estado": "Santa Catarina", "id": 4, "nome": "Guilherme", "valor": 1600}, 
         {"codigo": 54659, "data": 1, "dataCliente": 4, "estado": "Parana", "id": 6, "nome": "Lucas", "valor": 2260}];
         expect(res).toEqual(comparador2);
     });
