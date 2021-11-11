@@ -27,7 +27,7 @@ describe('Prova', () =>{
             {"codigo": 54656, "data": 2, "id": 3, "valor": 2500}, 
             {"codigo": 54658, "data": 2, "id": 5, "valor": 2680}, 
             {"codigo": 54659, "data": 2, "id": 6, "valor": 2260}];
-        expect(res).toEqual(true);
+        expect(res).toEqual(comparador);
     });
     test('Se o valor da fatura estiver entre 2000 e 2500 e a data for menor ou igual a de um mês atrás', () => {
         var faturas = [
@@ -57,7 +57,7 @@ describe('Prova', () =>{
             {"codigo": 54657, "data": 2, "idfatura": 4, "valor": 1600}, 
             {"codigo": 54658, "data": 2, "idfatura": 5, "valor": 2680}, 
             {"codigo": 54659, "data": 2, "idfatura": 6, "valor": 2260}];
-        expect(res).toEqual(true);
+        expect(res).toEqual(comparador);
     });
     test('Se o valor da fatura estiver entre 2500 e 3000 e a data de inclusão do cliente for menor ou igual a 2 meses atrás', () => {
         const faturas = [
@@ -86,7 +86,7 @@ describe('Prova', () =>{
             {"codigo": 54657, "data": 2, "id": 4, "valor": 1600}, 
             {"codigo": 54659, "data": 2, "id": 6, "valor": 2260}, 
             {"0": {"codigo": 54656, "data": 2, "id": 3, "valor": 2500}}];
-        expect(res).toEqual(true);
+        expect(res).toEqual(comparador);
     });
     test('//Ex 4 - Se o valor da fatura for maior que 4000 e pertencer a algum estado da região Sul do Brasil', () => {
         const faturas = [
@@ -115,6 +115,6 @@ describe('Prova', () =>{
             {"codigo": 54657, "data": 2, "id": 4, "valor": 1600}, 
             {"codigo": 54659, "data": 2, "id": 6, "valor": 2260}, 
             {"0": {"codigo": 54655, "data": 2, "id": 2, "valor": 4900}}];
-        expect(res).toEqual(true);
+        expect(res).toEqual(comparador);
     });
 });
