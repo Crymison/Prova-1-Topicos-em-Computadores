@@ -18,7 +18,7 @@ describe('Prova', () =>{
             {id: 2, nome: 'Jorel', data: "16/12/2021", estado: 'Amazonas'},
             {id: 3, nome: 'Jose', data: "05/03/2021", estado: 'Rio Grande do Sul'},
             {id: 4, nome: 'Abigail', data: "26/01/2022",  estado: 'São Paulo'},
-            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Parana'},
+            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Paraná'},
             {id: 6, nome: 'Loriane',  data: "10/11/2021",  estado: 'Rio de Janeiro'}
         ];
     
@@ -48,7 +48,7 @@ describe('Prova', () =>{
             {id: 2, nome: 'Jorel', data: "16/12/2021", estado: 'Amazonas'},
             {id: 3, nome: 'Jose', data: "05/03/2021", estado: 'Rio Grande do Sul'},
             {id: 4, nome: 'Abigail', data: "26/01/2022",  estado: 'São Paulo'},
-            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Parana'},
+            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Paraná'},
             {id: 6, nome: 'Loriane',  data: "10/11/2021",  estado: 'Rio de Janeiro'}
         ]
 
@@ -79,7 +79,7 @@ describe('Prova', () =>{
             {id: 2, nome: 'Jorel', data: 5, estado: 'Amazonas'},
             {id: 3, nome: 'Jose', data: 2, estado: 'Rio Grande do Sul'},
             {id: 4, nome: 'Abigail', data: 1,  estado: 'São Paulo'},
-            {id: 5, nome: 'Guilherme', data: 6, estado: 'Parana'},
+            {id: 5, nome: 'Guilherme', data: 6, estado: 'Paraná'},
             {id: 6, nome: 'Loriane',  data: 1,  estado: 'Rio de Janeiro'}
         ];
     
@@ -109,7 +109,7 @@ describe('Prova', () =>{
             {id: 2, nome: 'Jorel', data: "16/12/2021", estado: 'Amazonas'},
             {id: 3, nome: 'Jose', data: "05/03/2021", estado: 'Rio Grande do Sul'},
             {id: 4, nome: 'Abigail', data: "26/01/2022",  estado: 'São Paulo'},
-            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Parana'},
+            {id: 5, nome: 'Guilherme', data: "11/12/2021", estado: 'Paraná'},
             {id: 6, nome: 'Loriane',  data: "10/11/2021",  estado: 'Rio de Janeiro'}
         ];
 
